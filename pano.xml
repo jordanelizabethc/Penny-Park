@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.11" apprev="18043" id="node1">
+  <input width="3472" levelingroll="0" levelbiashidpi="1.000" height="3472" overlap="1" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510">
+    <level width="3472" predecode="0" preload="0" height="3472"/>
+    <level width="1736" predecode="0" preload="0" height="1736"/>
+    <level width="868" predecode="0" preload="0" height="868"/>
+    <level width="434" predecode="1" preload="1" height="434"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start projection="4" fov="70" tilt="0" pan="0"/>
+    <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+    <min tilt="-90" pan="0" fovpixel="2"/>
+    <max fovstereographic="270" fov="120" tilt="90" pan="360" fovfisheye="360" scaletofit="1"/>
+  </view>
+  <userdata comment="" info="" title="" copyright="" nodeid="node1" customnodeid="" description="" longitude="" latitude="" heading="0" tags="Panos" author="" datetime="4/28/21 5:59 AM" source=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" backgroundalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1" background="1" border="1" height="20" bordercolor="0x000000" wordwrap="1" textcolor="0x000000" textalpha="1"/>
+    <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" handcursor="1"/>
+    <hotspot target="" id="Point01" tilt="-4.43" pan="-115.23" title="Penny" skinid="ht_image" description="" url="images/penny.jpg"/>
+  </hotspots>
+  <media/>
+  <transition zoomafterinfov="90" zoomin="0" zoomfov="20" enabled="1" zoomout="0" softedge="0" blendtime="1" blendcolor="0x000000" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomoutpause="1"/>
+  <autorotate startloaded="0" enabled="1" nodedelay="0.00" speed="0.030" delay="5.00" returntohorizon="0.000" nodefilter="" useanimation="0" noderandom="1"/>
+  <flyintransition enabled="1" speed="2.00"/>
+  <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+  <control dblclickfullscreen="0" contextprojections="0" simulatemass="1" rubberband="0" lockedkeyboard="0" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" sensitivity="8" speedwheel="1" contextfullscreen="1"/>
+</panorama>
